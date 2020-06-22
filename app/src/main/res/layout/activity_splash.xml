@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Putih"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/dm110"
+        android:layout_height="@dimen/dm110"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dm250"
+        android:src="@drawable/ic_launcher_foreground"
+        app:srcCompat="@drawable/ic_launcher_background"/>
+    <TextView
+        android:id="@+id/namaapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JTC"
+        android:textSize="@dimen/dm20"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/Hitam"
+        android:layout_below="@+id/logo"
+        android:padding="@dimen/dm30"/>
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dm20"
+        android:indeterminateTint="@color/Hitam"/>
+    <TextView
+        android:id="@+id/designed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loading"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dm200"
+        android:padding="@dimen/dm15"
+        android:text="Designed by Devi Supriyadi"
+        android:textColor="@color/Hitam"
+        android:textSize="@dimen/dm15"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
