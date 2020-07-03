@@ -20,7 +20,7 @@
         android:id="@+id/namaapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="JTC"
+        android:text="@string/app_name"
         android:textSize="@dimen/dm20"
         android:textStyle="bold"
         android:gravity="center"

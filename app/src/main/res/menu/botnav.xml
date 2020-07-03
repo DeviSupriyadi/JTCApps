@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/omah"
+        android:icon="@drawable/omahe_menu"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/futue"
+        android:icon="@drawable/foto_tkd"
+        android:title="@string/futu"/>
+    <item
+        android:id="@+id/videoo"
+        android:icon="@drawable/teaser_video"
+        android:title="@string/video"/>
+    <item
+        android:id="@+id/membs"
+        android:icon="@drawable/member"
+        android:title="@string/member"/>
+    <item
+        android:id="@+id/contacts"
+        android:icon="@drawable/kontak_sosmed"
+        android:title="@string/kontak"/>
+
+</menu>
