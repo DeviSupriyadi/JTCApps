@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,5 +12,18 @@
         android:layout_height="match_parent"
         android:text="Berisi Foto JTC"
         android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/futu"
+        android:layout_width="@dimen/dm200"
+        android:layout_height="@dimen/dm200"
+        android:src="@drawable/testfotobung"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ITN 2018"
+        android:textColor="@color/Hitam"
+        android:gravity="center_horizontal"/>
 
 </FrameLayout>
