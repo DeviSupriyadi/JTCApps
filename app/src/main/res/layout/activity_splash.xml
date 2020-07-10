@@ -14,8 +14,8 @@
         android:layout_height="@dimen/dm110"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/dm250"
-        android:src="@drawable/ic_launcher_foreground"
-        app:srcCompat="@drawable/ic_launcher_background"/>
+        android:src="@drawable/logo_jtc"
+        app:srcCompat="@drawable/logo_jtc"/>
     <TextView
         android:id="@+id/namaapp"
         android:layout_width="match_parent"
