@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "997661438038",
+    "firebase_url": "https://jtc-team.firebaseio.com",
+    "project_id": "jtc-team",
+    "storage_bucket": "jtc-team.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997661438038:android:ed70980add2d44abba4bf7",
+        "android_client_info": {
+          "package_name": "com.devisupriyadi.jtcapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997661438038-v623pob3u9rdcioqgn60emn1sbjrcom3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbfI-l17g3ZEZw7bNaE8pqwNYXzOL-DLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997661438038-v623pob3u9rdcioqgn60emn1sbjrcom3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
