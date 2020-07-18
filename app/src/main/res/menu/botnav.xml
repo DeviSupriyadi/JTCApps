@@ -6,13 +6,9 @@
         android:icon="@drawable/omahe_menu"
         android:title="@string/home"/>
     <item
-        android:id="@+id/futue"
-        android:icon="@drawable/foto_tkd"
-        android:title="@string/futu"/>
-    <item
-        android:id="@+id/videoo"
-        android:icon="@drawable/teaser_video"
-        android:title="@string/video"/>
+        android:id="@+id/galeri"
+        android:icon="@drawable/gale_24"
+        android:title="@string/galeru"/>
     <item
         android:id="@+id/membs"
         android:icon="@drawable/member"

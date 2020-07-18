@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "997661438038-6h7slkbgjo2ivp1iil128oua6o2k6ln1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devisupriyadi.jtcapps",
+            "certificate_hash": "9bc1cedc438f6f986bcd46c5b2d4f12a32c71a6c"
+          }
+        },
+        {
           "client_id": "997661438038-v623pob3u9rdcioqgn60emn1sbjrcom3.apps.googleusercontent.com",
           "client_type": 3
         }

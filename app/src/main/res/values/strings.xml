@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">JTCApps</string>
     <string name="home">Home</string>
-    <string name="futu">Image</string>
-    <string name="video">Video</string>
+    <string name="galeru">Gallery</string>
     <string name="member">Member</string>
     <string name="kontak">Contact</string>
     <!-- TODO: Remove or change this placeholder text -->

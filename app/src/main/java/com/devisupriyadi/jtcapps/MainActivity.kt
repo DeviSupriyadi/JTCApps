@@ -8,6 +8,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     private var content: FrameLayout? = null
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
@@ -17,13 +18,8 @@ class MainActivity : AppCompatActivity() {
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
             }
-            R.id.futue -> {
-                val fragment = FotoFragment()
-                addFragment(fragment)
-                return@OnNavigationItemSelectedListener true
-            }
-            R.id.videoo -> {
-                val fragment = VideoFragment()
+            R.id.galeri -> {
+                val fragment = GalleryFragment()
                 addFragment(fragment)
                 return@OnNavigationItemSelectedListener true
             }
