@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dm12"
+            android:layout_toStartOf="@+id/layout_options"
+            android:orientation="vertical"
+            android:padding="@dimen/dm12">
+
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/Hitam"
+                android:textSize="@dimen/font20"
+                tools:text="Devi Tiana"/>
+
+            <TextView
+                android:id="@+id/text_view_sabuk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_view_name"
+                android:layout_marginTop="@dimen/dm4"
+                android:layout_marginEnd="@dimen/dm12"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/Hitam"
+                android:textSize="@dimen/font16"
+                tools:text="Geup I"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dm12"
+                android:background="@drawable/ic_edit"/>
+
+            <ImageButton
+                android:id="@+id/btn_dlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dm12"
+                android:background="@drawable/ic_delete"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm1"
+        android:background="#e9e9e9"/>
+
+</LinearLayout>
