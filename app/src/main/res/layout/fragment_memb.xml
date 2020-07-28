@@ -4,22 +4,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OmaheFragment">
+    tools:context=".MembFragment">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:layout_width="@dimen/dm0"
-        android:layout_height="@dimen/dm0"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_marginStart="@dimen/dm1"
-        android:layout_marginTop="@dimen/dm1"
-        android:layout_marginEnd="@dimen/dm1"
-        android:layout_marginBottom="@dimen/dm1"
-        app:defaultNavHost="true"
+    <androidx.recyclerview.widget.RecyclerView
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview_members"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add_membFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dm16"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/activity_main_nav"/>
+        app:srcCompat="@drawable/ic_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

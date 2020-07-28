@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    tools:context=".MimbirFragment">
+    android:minWidth="1000dp"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,21 +17,36 @@
         android:textSize="@dimen/font24"/>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/input_layout_name"
+        android:id="@+id/inputlayout_name_editDialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/dm16">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_name"
+            android:id="@+id/edittext_name_editDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/enter_member_name"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputlayout_sabuk_editDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dm16">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edittext_sabuk_editDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan sabuk"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
     <Button
-        android:id="@+id/btn_add"
+        android:id="@+id/btn_updateMember_editDialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorAccent"

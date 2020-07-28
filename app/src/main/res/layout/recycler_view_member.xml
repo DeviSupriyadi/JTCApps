@@ -18,7 +18,7 @@
             android:padding="@dimen/dm12">
 
             <TextView
-                android:id="@+id/text_view_name"
+                android:id="@+id/text_view_name_rvMember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
@@ -27,10 +27,10 @@
                 tools:text="Devi Tiana"/>
 
             <TextView
-                android:id="@+id/text_view_sabuk"
+                android:id="@+id/text_view_sabuk_rvMember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/text_view_name"
+                android:layout_below="@+id/text_view_name_rvMember"
                 android:layout_marginTop="@dimen/dm4"
                 android:layout_marginEnd="@dimen/dm12"
                 android:fontFamily="sans-serif-light"
@@ -48,14 +48,14 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_edit"
+                android:id="@+id/btn_edit_rvMember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dm12"
                 android:background="@drawable/ic_edit"/>
 
             <ImageButton
-                android:id="@+id/btn_dlt"
+                android:id="@+id/btn_dlt_rvMember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dm12"

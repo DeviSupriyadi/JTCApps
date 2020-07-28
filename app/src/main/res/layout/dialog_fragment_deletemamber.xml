@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Member"
+        android:textSize="@dimen/font18"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_margin="@dimen/dm16"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dm16"
+        android:layout_marginEnd="@dimen/dm16"
+        android:layout_marginBottom="@dimen/dm16"
+        android:text="Yakin ingin menghapus member ini?"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm16">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_cancel_dialogCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="cancel"
+            android:textColor="@color/Putih"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_delete_dialogDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="delete"
+            android:textColor="@color/Putih"/>
+    </LinearLayout>
+
+</LinearLayout>
