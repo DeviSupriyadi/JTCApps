@@ -10,6 +10,7 @@ class MembViewModel : ViewModel() {
 
     private val dbMember = FirebaseDatabase.getInstance().getReference(NODE_MEMBERS)
 
+
     private val _members = MutableLiveData<List<Member>>()
     val members: LiveData<List<Member>>
         get() = _members

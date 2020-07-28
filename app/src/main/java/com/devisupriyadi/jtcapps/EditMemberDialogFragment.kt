@@ -27,6 +27,7 @@ class EditMemberDialogFragment(
         viewModel = ViewModelProviders.of(this).get(MembViewModel::class.java)
         return inflater.inflate(R.layout.fragment_edit_member_dialog, container, false)
     }
+
     override fun OnCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setStyle(STYLE_NO_TITLE, android.R.style.Theme_DeviceDefault_Light_Dialog_MinWidth)
