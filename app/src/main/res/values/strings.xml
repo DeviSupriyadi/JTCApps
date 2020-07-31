@@ -13,6 +13,7 @@
     <string name="add_new_member">Add New Member</string>
     <string name="dlt_confirm">Are you sure you want to delete?</string>
     <string name="ya">Yes</string>
+    <string name="pres">Prestasi</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

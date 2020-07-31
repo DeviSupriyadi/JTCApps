@@ -6,24 +6,127 @@
     android:layout_height="match_parent"
     tools:context=".OmaheFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Berisi Foto JTC"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/futu"
-        android:layout_width="@dimen/dm200"
-        android:layout_height="@dimen/dm200"
-        android:src="@drawable/testfotobung"
-        android:layout_gravity="center_horizontal" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ITN 2018"
-        android:textColor="@color/Hitam"
-        android:gravity="center_horizontal"/>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gallery JTC"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorBiruNavy"
+                android:textSize="22sp"
+                android:padding="15dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc1"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc2"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc3"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc4"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc5"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc6"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc7"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc8"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc9"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc10"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc11"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc12"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc13"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc14"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc15"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm172"
+                android:src="@drawable/jtc16"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
 </FrameLayout>

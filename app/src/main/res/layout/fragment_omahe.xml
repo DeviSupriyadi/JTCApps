@@ -1,15 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OmaheFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Welcome to JTC"
-        android:gravity="center"/>
+        android:layout_height="match_parent">
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Joe Taekwondo Club"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorBiruNavy"
+                android:textSize="22sp"
+                android:padding="15dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/dm200"
+                android:layout_height="@dimen/dm142"
+                android:src="@drawable/jtc_old"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JTC berdiri sejak tahun 2012. Dibangun oleh Johanes Freddyk selaku pelatih."
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pres"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2011 : KEJUARAAN BUPATI CUP (2 EMAS, 4 PERAK, 4 PERUNGGU."
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2012 : KEJUARAAN PHONIX CUP 2 (1 PERAK, 5 PERUNGGU)"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2012 : KEJUARAAN KARAWANG TIGER CUP (2 EMAS, 3 PERAK, 11 PERUNGGU)"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2013 : KEJUARAAN D'GROOVE (1 PERAK, 5 PERUNGGU)"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2014 : KEJUARAAN TIGER CUP OPEN ANTAR PELAJAR (15 EMAS, 12 PERAK, 15 PERUNGGU) dan MERAIH JUARA UMUM 2, JUARA UMUM 1 KATEGORI SMA/SMK, JUARA UMUM 3 KATEGORI SMP"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2014 : KEJUARAAN PERSADA CUP ANTAR PELAJAR (7 EMAS, 2 PERAK, 2 PERUNGGU) MERAIH JUARA UMUM 2 KATEGORI SMA/SMK, JUARA UMUM 3 KATEGORI SD"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2014 : KEJUARAAN GUBERNUR CUP ANTAR PELAJAR (1 PERAK, 1 PERUNGGU)"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2015 : KEJUARAAN UMUH CUP ANTAR PELAJAR (6 EMAS, 3 PERAK, 4 PERUNGGU) MERAIH JUARA UMUM 3"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2015 : KEJUARAAN STT Textile (6 EMAS, 3 PERAK, 4 PERUNGGU) MERAIH JUARA UMUM 3"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Tahun 2015 : KEJUARAAN SEVEN PYONGWONS (7 EMAS, 5 PERAK, 9 PERUNGGU) MERAIH JUARA UMUM 3 dan ATLET TERBAIK CADET PUTRA"
+                android:padding="8dp"
+                android:textColor="@color/Hitam"
+                android:textSize="14sp"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="start"/>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
 </FrameLayout>

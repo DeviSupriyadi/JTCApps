@@ -32,8 +32,8 @@
             <ImageView
                 android:layout_marginTop="45dp"
                 android:layout_gravity="center_horizontal"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@drawable/logo_jtc"/>
             <TextView
                 android:layout_marginTop="10dp"
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Joe Taekwondo Club"
-                android:textColor="#9E87AA"
+                android:textColor="@color/Hitam"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
         </LinearLayout>
@@ -114,7 +114,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Johannes Freddyk"
+                        android:text="Johanes Freddyk"
                         android:textStyle="bold"
                         android:textSize="15sp"
                         android:paddingTop="10dp"
@@ -136,14 +136,67 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <ImageView
+                android:id="@+id/ig"
+                android:layout_width="@dimen/dm50"
+                android:layout_height="@dimen/dm50"
+                app:srcCompat="@drawable/ig_logo" />
             <TextView
-                android:textStyle="bold"
-                android:layout_gravity="center_vertical"
-                android:layout_width="wrap_content"
+                android:id="@+id/ig1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:text="Joe Taekwondo Club berdiri sejak 2013. Sudah mempunyai banyak prestasi dan atlet terbaik."/>
+                android:layout_marginTop="@dimen/dm12"
+                android:hint="jtc_team"
+                android:textColorHint="@color/Hitam"
+                android:textSize="@dimen/dm20"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/fb" />
+        </LinearLayout>
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tlp"
+                android:layout_width="@dimen/dm50"
+                android:layout_height="@dimen/dm50"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/phone_logo" />
+            <TextView
+                android:id="@+id/tlp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dm12"
+                android:hint="08172345985"
+                android:textColorHint="@color/Hitam"
+                android:textSize="@dimen/dm20"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/maps"
+                android:layout_width="@dimen/dm50"
+                android:layout_height="@dimen/dm50"
+                app:srcCompat="@drawable/maps_logo" />
+            <Button
+                android:id="@+id/maps1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dm2"
+                android:hint="Go To Maps!"
+                android:textColorHint="@color/Hitam"
+                android:textSize="@dimen/dm20"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/fb" />
         </LinearLayout>
 
     </LinearLayout>

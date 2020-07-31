@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#000080</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="Hitam">#000000</color>
     <color name="Putih">#FFFFFF</color>
     <color name="colorNavigationIcon">#DAE9F6</color>
+    <color name="colorBiruNavy">#02073D</color>
 </resources>
