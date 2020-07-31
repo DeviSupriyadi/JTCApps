@@ -87,43 +87,6 @@
                 android:src="@drawable/jtc10"
                 android:layout_gravity="center"
                 />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc11"
-                android:layout_gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc12"
-                android:layout_gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc13"
-                android:layout_gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc14"
-                android:layout_gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc15"
-                android:layout_gravity="center"
-                />
-            <ImageView
-                android:layout_width="@dimen/dm200"
-                android:layout_height="@dimen/dm172"
-                android:src="@drawable/jtc16"
-                android:layout_gravity="center"
-                />
-
         </LinearLayout>
 
 

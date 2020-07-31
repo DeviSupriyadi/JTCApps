@@ -25,7 +25,7 @@ class KontakFragment : Fragment() {
             var i = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/jtc_team/"))
             startActivity(i)
         }
-        maps1.setOnClickListener(){
+        btn_maps.setOnClickListener(){
             var i = Intent(Intent.ACTION_VIEW, Uri.parse("https://goo.gl/maps/xBzJEVzaGWB2vbbw5"))
             startActivity(i)
         }

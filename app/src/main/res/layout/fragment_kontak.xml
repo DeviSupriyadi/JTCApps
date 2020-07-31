@@ -27,7 +27,7 @@
         <LinearLayout
 
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="200dp"
             android:orientation="vertical">
             <ImageView
                 android:layout_marginTop="45dp"
@@ -67,10 +67,12 @@
                         android:text="Tempat"
                         android:textSize="15sp"
                         />
-                    <TextView
+                    <Button
+                        android:id="@+id/btn_maps"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bandung"
+                        android:hint="Maps!"
+                        android:textColorHint="@color/Hitam"
                         android:textStyle="bold"
                         android:textSize="15sp"
                         android:paddingTop="10dp"
@@ -176,28 +178,7 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:paddingLeft="25dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/maps"
-                android:layout_width="@dimen/dm50"
-                android:layout_height="@dimen/dm50"
-                app:srcCompat="@drawable/maps_logo" />
-            <Button
-                android:id="@+id/maps1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dm2"
-                android:hint="Go To Maps!"
-                android:textColorHint="@color/Hitam"
-                android:textSize="@dimen/dm20"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/fb" />
-        </LinearLayout>
 
     </LinearLayout>
 </LinearLayout>
